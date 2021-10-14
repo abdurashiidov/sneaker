@@ -1,0 +1,183 @@
+.adidas{
+    background-color: #40BFFF;
+    // display: flex;
+    position: relative;
+    margin-top: 200px;
+
+    &-optom{
+        display: flex;
+    }
+
+    &-left{
+        max-width: 592px;
+        padding-top: 162px;
+        padding-bottom: 162px;
+
+        &__heading{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 82px;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            width: 571px;
+            padding-bottom: 23px;
+        }
+
+        &__text{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 12px;
+        }
+
+        &__link{
+            text-decoration: none;
+            padding-bottom: 4px;
+        }
+
+        &__text2{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+            width: 111px;
+
+            // &:hover{
+            //     border-bottom: 1px solid #FFFFFF;
+            //     width: 75px;    
+            // }
+        }
+    }  
+}
+.line{
+    width: 75px;
+    height: 3px;
+    border: none;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+}
+// .adidas-right{
+//     position: relative;
+// }
+.adidas-right__img{
+    position: absolute;
+    margin-top: -95px;
+    z-index: 2;
+}
+
+
+// end adidas-optom
+// start info
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 223px;
+    margin-bottom: 200px;
+
+    &-boxes{
+        max-width: 198px;
+
+        &__heading1{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 40px;
+            color: #22262A;
+            // position: relative;
+            margin: 0;
+            padding: 0;
+
+            &::before{
+                content: "";
+                position: relative;
+                background-image: url(./../../img/free-shipping.svg);
+                display: block;
+                background-repeat: no-repeat;
+                width: 101px;
+                height: 66px;
+                margin-bottom: 50px;
+                margin-left: 50px;
+            }
+        }
+
+        &__heading2{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 40px;
+            color: #22262A;
+            margin: 0;
+            padding: 0;
+
+            &::before{
+                content: "";
+                background-image: url(./../../img/dollar.svg);
+                display: block;
+                background-repeat: no-repeat;
+                width: 69px;
+                height: 78px;
+                // position: relative;
+                margin-left: 50px;
+                // margin-bottom: -50px;
+                // padding-bottom: -80px;
+                margin-bottom: 50px;
+            }
+        }
+
+        &__heading3{
+            font-family: "Poppins", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 40px;
+            color: #22262A;
+            margin: 0;
+            padding: 0;
+
+            &::before{
+                content: "";
+                background-image: url(./../../img/support.svg);
+                display: block;
+                background-repeat: no-repeat;
+                width: 68px;
+                height: 89px;
+                margin-bottom: 50px;
+                margin-left: 50px;
+            }
+        }
+
+        &__text{
+            font-family: "Proxima Nova", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #22262A;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+
+
+
+
